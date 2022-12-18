@@ -12,17 +12,9 @@ $(function() {
         }
     });
     $("#reserveButton").click(function(){
-        $("#reserveModal").modal('toggle');
-        $("#reserveModal").modal(show);
+        $("#reserveModal").modal("show");
     });
     $("#loginButton").click(function(){
-        $("#loginModal").modal('toggle');
-        $("#loginModal").modal(show);
+        $("#loginModal").modal("show");
     });
 });
-
-// $(function() {
-//     $("#reserveButton").click(function(){
-//         $("#reserveModal").modal(show);
-//     }); 
-// });
